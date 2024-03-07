@@ -1,0 +1,174 @@
+/* @font-face {
+  font-family: 'CookieRun-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/CookieRun-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+} */
+@font-face {
+  font-family: 'PartialSansKR-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-1@1.1/PartialSansKR-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'GangwonEduPowerExtraBoldA';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEduPowerExtraBoldA.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;600;700;900&display=swap');
+*{
+  font-family: 'GangwonEduPowerExtraBoldA';
+}
+header {
+display: flex;
+align-items: center; /* 세로 중앙 정렬 */
+background-color: #3e8e41;
+color: #f1f1f1;
+width: 100%;
+height: 80px;
+position: fixed; /* 고정 위치 */
+top: 0; /* 상단에 위치 */
+left: 0; /* 좌측에 위치 */
+right: 0; /* 우측까지 너비를 확장 */
+z-index: 1000; /* 다른 요소 위에 표시 */
+box-shadow: 0 5px 5px -5px #333;
+}
+/* 메뉴 */
+.line {
+  height: 50px;
+  position: relative;
+  box-sizing: border-box;
+  display: flex; /* 버튼을 중앙에 배치하기 위해 추가 */
+  justify-content: center; /* 가로 중앙 정렬 */
+  align-items: center; /* 세로 중앙 정렬 */
+}
+
+.line::before,
+.line::after {
+  transition: all 0.5s ease;
+  display: block;
+  content: '';
+  position: absolute;
+  background: #ffffff; /* 테두리 색상 */
+  z-index: 100;
+}
+
+.line::before {
+  top: 0;
+  left: 0;
+  right: 100%;
+  height: 1px;
+}
+
+.line::after {
+  top: 0;
+  right: 0;
+  bottom: 100%;
+  width: 1px;
+}
+
+.line:hover::before {
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+  right: 0;
+}
+
+.line:hover::after {
+  -webkit-transition-delay: .2s;
+  transition-delay: .2s;
+  bottom: 0;
+}
+.dropbtn {
+  background-color: #3e8e41;
+  color: white;
+  width: 150px;
+  font-size: 20px;
+  border: none;
+}
+.dropdown-content {
+  position: absolute;
+  width: 180px; height: 100px;
+  width: max-content;
+  z-index: 1;
+  padding-top: 10px;
+}
+.dropdown-content a{
+  padding-top: 25px;
+  background-color: #ffffff94;
+  text-align: center;
+  display: block; 
+  font-size: 18px;
+  color: #000;
+  width: 100%; height: 50%;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: 600;
+  margin-right: 50px; /* 각 메뉴 간격 조절 */
+  text-decoration: none !important; 
+}
+.dropdown-content a:hover{
+  background-color: #ffffff;
+}
+.dropdown-content a:first-child{
+  border-top-left-radius: 5px; /* 왼쪽 위 모서리 둥글게 */
+  border-top-right-radius: 5px; /* 오른쪽 위 모서리 둥글게 */
+}
+.dropdown-content a:last-child {
+  border-bottom-left-radius: 5px; /* 왼쪽 아래 모서리 둥글게 */
+  border-bottom-right-radius: 5px; /* 오른쪽 아래 모서리 둥글게 */
+}
+.logo2{
+  color: white;
+  padding: 16px;
+  font-size: 60px;
+  border: none;
+  font-family: 'CookieRun-Regular', sans-serif;
+  text-decoration: none;
+}
+
+.mainbody{
+background-color: #3e8e41;
+margin: 0; /* 바디의 기본 마진 제거 */
+position: relative; /* 가상 요소의 위치를 설정하기 위해 부모 요소를 relative로 설정 */
+}
+
+.logo {
+  display: flex; /* 로고를 수평 정렬하기 위해 부모 요소에도 Flexbox 적용 */
+  align-items: center; /* 가운데 정렬 */
+  font-size: 50px;
+
+}
+
+.logo span {
+  margin-left: 50px; /* 로고 텍스트와 드롭다운 메뉴 사이에 간격 조절 */
+  font-family: 'CookieRun-Regular', sans-serif;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  flex-grow: 1; /* 남은 공간을 차지하도록 설정 */
+  justify-content: center; /* 가운데 정렬 */
+  text-decoration: none;
+}
+
+.login {
+  font-size: 50px; /* 아이콘의 크기 설정 */
+  display: flex; /* 아이콘을 수평 정렬하기 위해 Flexbox 적용 */
+  margin-left: auto; /* 아이콘을 왼쪽으로 이동시키는 여백 설정 */
+}
+.login a{
+  text-decoration: none !important; 
+}
+.icon{
+  font-size: 50px; /* 아이콘의 크기 설정 */
+  display: flex; /* 아이콘을 수평 정렬하기 위해 Flexbox 적용 */
+  margin-left: auto; /* 아이콘을 왼쪽으로 이동시키는 여백 설정 */
+  margin-right: 30px;
+}
+
+
+
+
+
+

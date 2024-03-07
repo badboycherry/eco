@@ -1,0 +1,85 @@
+.update-container {
+  max-width: 600px;
+  /* 수정 폼의 최대 너비 */
+  margin: 50px auto;
+  /* 상단 여백 조정 및 중앙 정렬 */
+  margin-top: 175px;
+  padding: 20px;
+  /* 내부 여백 조정 */
+  background-color: white;
+  /* 배경색 설정 */
+  border-radius: 8px;
+  /* 모서리 둥글게 */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* 그림자 효과 추가 */
+}
+
+.update-info h2 {
+  text-align: center;
+  margin-bottom: 40px;
+  /* 제목 아래 마진 조정 */
+  color: #333;
+  /* 제목 색상 */
+  font-size: 28px;
+  /* 제목 글꼴 크기 */
+}
+
+.update-group {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.update-group label {
+  display: block;
+  font-weight: bold;
+  margin-top: 7px;
+  text-align: left;
+  margin-left: 40px;
+}
+
+.update-group input {
+  width: calc(100% - 60px);
+  padding: 12px;
+  border: 1px solid #96CC50;
+  border-radius: 13px;
+  font-family: 'Noto Sans KR', sans-serif;
+  box-sizing: border-box;
+  margin: 10px 0;
+}
+
+.update-label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.update-btn {
+  margin: auto;
+  width: 300px;
+  display: flex;
+}
+
+.result-button {
+  font-weight: bold;
+  font-family: 'Noto Sans KR', sans-serif;
+  margin: 0 10px;
+  padding: 10px 20px;
+  background-color: #f0f0f0;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: block;
+  /* 블록 레벨 요소로 변경 */
+}
+
+.result-button:nth-child(1) {
+  background-color: #96CC50;
+  /* 버튼 배경색 */
+  color: white;
+}
+
+/* 클리어픽스 적용 */
+.update-group::after {
+  content: "";
+  clear: both;
+  display: table;
+}

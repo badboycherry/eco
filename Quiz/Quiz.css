@@ -1,0 +1,154 @@
+.quiz-content {
+    margin-top: 100px;
+    /* 헤더의 높이만큼 여백 추가 */
+    font-size: 30px;
+    width: 80%;
+    /* 너비를 80%로 설정합니다. */
+    max-width: 1000px;
+    /* 최대 너비를 1000px로 제한합니다. */
+    height: 600px;
+    /* 높이를 600px로 설정합니다. */
+    justify-content: center;
+    align-items: center;
+    margin-top: -50px;
+    /* 퀴즈 제목 위 여백 추가 */
+}
+
+.quizimg {
+    
+    display: flex;
+    /* 이미지를 가로로 나란히 배치 */
+    gap: 150px;
+    /* 이미지 사이의 간격 조정 */
+    height: 200px;
+    justify-content: center;
+    /* 가로로 중앙 정렬합니다. */
+    align-items: center;
+    /* 세로로 중앙 정렬합니다. */
+    width: 100%;
+    /* 부모 요소의 전체 너비를 사용합니다. */
+    overflow: hidden;
+
+}
+
+.quizimg img {
+    cursor: pointer;
+    width: 100px;
+}
+
+.quizh1 {
+    margin-top: 200px;
+    text-shadow:
+    -4px -4px 0 #96CC50,
+    4px -4px 0 #96CC50,
+    -4px 4px 0 #96CC50,
+    4px 4px 0 #96CC50;
+    color: #fff;
+    letter-spacing: 3px;
+
+
+}
+.next-button-container {
+    display: inline-block;
+    float: right;
+}
+
+.next-button-container button {
+    cursor: pointer;
+    background-color: #f9ffa8 ; /* 배경색 설정 */
+    color: rgb(59, 59, 59); /* 글자색 설정 */
+    width: 100px; height: 50px;
+    line-height: 55px;
+    border: none;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+
+
+
+.quiz_box {
+    overflow: hidden;
+    width: 860px;
+    height: 600px;
+    background-color: #ECF8DE;
+    border-radius: 10px;
+  
+}
+
+
+.quiz_box p {
+    font-size: 20px;
+    width: 90%; height: 200px;
+    margin: 20px auto;
+    border-radius: 10px;
+    background-color: #fff;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+.quiz_bottom{
+    padding: 20px;
+    overflow: hidden;
+    width: 80%;
+    border-radius: 50px;
+    margin: auto;
+    background-color: #fff;
+    height: 300px;
+
+}
+
+
+.quiz {
+    display: flex;
+    /* 요소를 수평으로 배치합니다. */
+    justify-content: center;
+    /* 가운데 정렬합니다. */
+    flex-direction: column;
+    /* 요소를 세로로 배치합니다. */
+    align-items: center;
+    /* 가운데 정렬합니다. */
+    color: #000;
+    font-size: 24px;
+    font-weight: bold;
+    position: absolute;
+    width: 100%;
+    /* 부모 요소의 전체 너비를 사용합니다. */
+
+}
+
+.quiztextcontainer {
+    text-align: center;
+    /* 텍스트를 가운데 정렬합니다. */
+    margin-top: 100px;
+}
+
+.quizend {
+    position: relative;
+    z-index: 1;
+    /* 퀴즈 컨텐츠를 헤더 아래에 렌더링합니다. */
+    margin-top: 100px;
+    /* 헤더의 높이만큼 여백 추가 */
+    font-size: 30px;
+    width: 80%;
+    /* 너비를 80%로 설정합니다. */
+    max-width: 1000px;
+    /* 최대 너비를 1000px로 제한합니다. */
+    height: 600px;
+    /* 높이를 600px로 설정합니다. */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* 텍스트를 가운데 정렬합니다. */
+    margin-top: -100px;
+    /* 퀴즈 제목 위 여백 추가 */
+
+}
+
+.quizendp {
+    margin-top: 200px;
+    /* 헤더의 높이만큼 여백 추가 */
+
+}
+

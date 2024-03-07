@@ -1,0 +1,174 @@
+.implementmodal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+    text-align: center;
+}
+
+.implementmodal-content {
+    background-color: #3e8e41;
+    padding: 20px;
+    border-radius: 5px;
+    height: 660px;
+    width: 700px;
+    position: relative;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* 그림자 효과를 추가합니다. */
+    border-radius: 10px; /* 테두리를 살짝 동그랗게 만듭니다. */
+}
+.implementmodal-content h1{
+    color: #ffffff;
+}
+.implementmodal-content h2{
+    color: #ffffff;
+}
+.implementmodal-content h3{
+    color: #ffffff;
+  
+}
+
+.implementmodalclose {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 30px;
+    cursor: pointer;
+    color: #000000;
+    z-index: 9999; /* 다른 요소 위로 올리기 위해 z-index 값을 높여줍니다. */
+}
+
+.implementimg {
+    
+    width: 600px;
+    height: 400px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: #000;
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 50px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); /* 그림자 효과를 추가합니다. */
+    border-radius: 10px; /* 테두리를 살짝 동그랗게 만듭니다. */
+    background-color: azure;
+}
+.implementimg img{
+    max-width: 550px;
+    max-height: 320px;
+}
+
+
+.implementmodalbutton {
+    font-size: 20px; /* 버튼의 글꼴 크기를 조정합니다. */
+    padding: 15px 50px 10px 50px; /* 버튼의 안쪽 여백을 설정합니다. */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* 그림자 효과를 추가합니다. */
+    border-radius: 10px; /* 테두리를 살짝 동그랗게 만듭니다. */
+    margin-top: 15px;
+    background-color: azure;
+    
+}
+.implementmodalimageUpload{
+    margin-top: 15px;
+}
+.implementmodalregistration-modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+}
+
+
+.implementmodalregistration-modal-content {
+    background-color: #f3fce8;
+    padding: 200px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    text-align: center;
+    max-height: 50%; 
+}
+
+.implementmodalregistration-modal-content button{
+    font-size: 18px; /* 버튼의 글꼴 크기를 조정합니다. */
+    padding: 15px 30px 10px 30px; /* 버튼의 안쪽 여백을 설정합니다. */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); /* 그림자 효과를 추가합니다. */
+    border-radius: 12px; /* 테두리를 살짝 동그랗게 만듭니다. */
+    margin-top: 15px;
+}
+
+.implementmodalregistration-complete {
+    position: relative;
+    top: -140px; /* 텍스트를 위로 올립니다. */
+    font-size: 40px;
+    border-radius: 5px; /* 둥근 테두리 추가 */
+}
+
+.implementmodalregistration-complete1 {
+    position: relative;
+    top: -120px; /* 텍스트를 위로 올립니다. */
+    font-size: 40px;
+    border: 1px solid #ccc; /* 박스 추가 */
+    padding: 12px; /* 내부 여백 추가 */
+    border-radius: 40px; /* 둥근 테두리 추가 */
+    color : white;
+    background-color: #3e8e41;
+}
+
+.implementmodalregistration-complete2{ 
+    position: relative;
+    top: -25px;
+    left: -280px;
+    font-size: 40px;
+    
+}
+
+.implementmodalregistration-complete2 h2{ 
+    font-size: 15px;
+    margin-left : 280px;
+    
+}
+
+.implementmodalregistration-complete3 h2{ 
+    font-size: 15px;
+    margin-left : 280px;
+    
+}
+
+.implementmodalregistration-complete2 img {
+    width: 290px; /* 이미지의 너비를 100px로 설정합니다. */
+    height: auto; /* 높이는 자동으로 조정됩니다. */
+}
+
+.implementmodalregistration-complete3{ 
+    position: relative;
+    top: -400px;
+    right: -280px;
+    font-size: 40px;
+    
+}
+
+.implementmodalregistration-complete3 img {
+    width: 290px; /* 이미지의 너비를 100px로 설정합니다. */
+    height: 220px; /* 높이는 자동으로 조정됩니다. */
+}
+
+.closing-section {
+    position: absolute;
+    bottom: 80px; /* 모달창의 하단으로부터의 거리 조정 */
+    left: 50%; /* 중앙에 위치시키기 위해 왼쪽 여백 설정 */
+    transform: translateX(-50%); /* 가운데 정렬을 위한 transform */
+}

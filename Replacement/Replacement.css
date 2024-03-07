@@ -1,0 +1,120 @@
+.replacement-container {
+    font-size: 30px;
+    width: 100%;
+    /* 최대 너비를 1000px로 제한합니다. */
+    height: 100vh;
+    /* 화면 전체 높이로 설정 */
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    /* 좌우 여백을 auto로 설정하여 수평 가운데 정렬 */
+    text-align: center;
+    background-color: #ECF8DE;
+    margin-top: -30px;
+}
+
+.replace_title {
+
+    margin-top: 130px;
+    display: block;
+    font-size: 35px;
+    height: 100px;
+    line-height: 120px;
+}
+
+.replace_title h2 {
+    font-family: 'PartialSansKR-Regular';
+    line-height: 200px;
+    font-weight: inherit;
+    color: #ffffff;
+    text-shadow: 
+    -4px -4px 0 #96CC50,  
+    4px -4px 0 #96CC50,
+    -4px 4px 0 #96CC50,
+    4px 4px 0 #96CC50;
+  /* 글자 간격 조절 */
+  letter-spacing: 10px; /* 원하는 간격으로 조정 */
+}
+
+.replacementimg {
+    overflow: hidden;
+    display: flex;
+    /* 요소를 수평으로 배치합니다. */
+    justify-content: center;
+    /* 가운데 정렬합니다. */
+    flex-direction: column;
+    /* 요소를 세로로 배치합니다. */
+    align-items: center;
+    /* 가운데 정렬합니다. */
+    color: #000;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: #dddddd;
+    height: 400px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* 그림자 효과를 추가합니다. */
+    border-radius: 10px;
+    /* 테두리를 살짝 동그랗게 만듭니다. */
+    margin: 0;
+    width: 85%;
+    margin: auto;
+}
+
+.replaceupload-image{
+    height: 380px;
+    margin-top: 380px;    
+}
+.replacement-container2 {
+    margin: 50px auto;
+    overflow: hidden;
+    width: 800px;
+    /* 너비를 80%로 설정합니다. */
+    height: 650px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* 그림자 효과를 추가합니다. */
+    border-radius: 10px;
+    /* 테두리를 살짝 동그랗게 만듭니다. */
+}
+
+.replacement-container2 h2 {
+    margin: 20px;
+    font-family: 'Noto Sans KR', sans-serif;
+    color: #333333;
+}
+.replacement-container2 h1 {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 15px;
+    margin-bottom: 12px;
+    color: #333333;
+    font-weight: bold;
+}
+
+.replacementupload-button {
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 380px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+
+.replacement-container2 button {
+    cursor: pointer;
+    margin: 20px;
+    font-size: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    font-family: 'Noto Sans KR', sans-serif;
+    padding: 5px 25px;
+    border: none;
+    background-color: #fff;
+
+}
+
+.replacement-container2 button:hover {
+    background-color: #d73b7727;
+    color: #333333;
+    font-weight: bold;
+}

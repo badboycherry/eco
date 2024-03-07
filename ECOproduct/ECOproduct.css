@@ -1,0 +1,135 @@
+.Ecoproduct {
+    color: #000;
+    /* 원하는 색상으로 변경하세요. 예: #000은 검정색입니다. */
+    font-size: 24px;
+    /* 폰트 크기 조절 */
+    font-weight: bold;
+    text-align: center;
+    margin-top: 100px;
+    height: 40%;
+  }
+
+.Ecoproduct h1{
+  font-size: 48px;
+}
+
+.Ecoproduct-h2 {
+  font-size: 60px;
+  margin-left: 300px;
+  margin-top: 100px;
+  margin-bottom: 10px;
+}
+  
+.Ecoproduct-p {
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 300px;
+}
+
+.Ecoproduct-p2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 300px;
+  margin-top: -10px;
+}
+
+.Ecoproduct-p3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 300px;
+  margin-top: -10px;
+}
+
+
+.Ecoproduct-p span {
+  font-size: 20px;
+  text-decoration: underline;
+  text-decoration-style: solid;
+  text-decoration-color: green;
+  text-decoration-thickness: 2px;
+}
+
+  .Ecoproductimg {
+    margin-bottom: 50px;
+  }
+
+.greenimg {
+    width: 1500px;
+    margin: auto;
+    display: flex;
+    margin-top:935px;
+}
+
+.greenmark {
+  border-collapse: separate; /* 테두리 간격을 띄웁니다. */
+  border-spacing: 0 10px; /* tr 요소 사이의 간격을 설정합니다. */
+}
+
+.greenmark img{
+  width: 150px; height: 150px;
+  margin: auto;
+}
+.greenimgtext{
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 20px;
+  display: inline;
+  font-weight: bold;
+}
+.image-text{
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+.greenmark tr td{
+  height: 182px;
+  padding: 0 20px;
+
+}
+
+.eco_explan{
+  height: 40px;
+}
+.eco_explan p{
+  font-family: 'Noto Sans KR', sans-serif;
+  line-height: 40px;
+}
+.eco_bar{
+  margin-bottom: 100px;
+}
+.eco_bar p{
+  font-family: 'Noto Sans KR', sans-serif;
+  text-align: center;
+  font-size: 20px;
+  line-height: 50px;
+  margin-top: 50px;
+}
+
+.EcoChart {
+  width: 500px;
+  height: 600px;
+  display: block;
+  margin-bottom: 30px;
+  margin-left: 300px;
+}
+
+.EcoChart-text{
+  font-size: 26px;
+  color: black;
+  font-weight: bold;
+  margin-left: 300px;
+  margin-top: -5px;
+}
+
+
+.chart-container canvas{
+  width: 1300px; /* 원하는 가로 크기 */
+  height: 600px; /* 원하는 세로 크기 */
+  margin: 100px auto;
+  background-color: white;
+  margin: 100px auto;
+}
+
+.ECOBAR {
+  font-size: 20px;
+  text-align: center;
+  margin-top: -10px;
+}

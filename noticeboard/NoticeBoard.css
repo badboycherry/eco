@@ -1,0 +1,65 @@
+.notice-board-container {
+    max-width: 1200px;
+    margin: 140px auto;
+    padding: 20px;
+    height: 800px;
+    background-color: rgba(255, 255, 255, 0.7);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    
+}
+.notice-board-container h1{
+  text-align: center;
+}
+
+.board-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  
+}
+
+.board-table th,
+.board-table td {
+    border: 2px solid #ddd;
+    padding: 8px;
+    text-align: center; 
+    font-family: 'Noto Sans KR', sans-serif;
+    
+}
+.board-table td a{
+  text-decoration: none;
+  color: #333333;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+.board-table th {
+    background-color: #f2f2f2;
+}
+
+.board-table th:nth-child(1) { /* 번호 */
+    width: 5%;
+  }
+
+.board-table th:nth-child(2) { 
+    width: 50%;
+  }
+
+.board-table th:nth-child(3) { 
+    width: 10%;
+  }
+
+.board-table th:nth-child(4) {
+    width: 15%;
+  }
+
+
+.write-button {
+  cursor: pointer;
+    float : right;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    font-family: 'Noto Sans KR', sans-serif;
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+
+}

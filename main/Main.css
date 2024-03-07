@@ -1,0 +1,460 @@
+@font-face {
+  font-family: 'CookieRun-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/CookieRun-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* content */
+.content-container {
+  display: flex;
+  justify-content: center; /* 가로 중앙 정렬 */
+  align-items: center; /* 세로 중앙 정렬 */
+  width: 100%;
+  height: 930px; /* 뷰포트 높이를 100%로 설정하여 화면 전체를 커버하도록 함 */
+  overflow: hidden;
+  position: relative;
+  }
+  
+  .text-container {
+  width: 800px; /* 필요에 따라 너비 조절 */
+  margin: auto;
+  font-size: 40px;
+  
+  }
+  
+  .image-container {
+  width: 592px; /* 필요에 따라 너비 조절 */
+  text-align: center; /* 가로 중앙 정렬 */
+  margin-top: 130px;
+  
+  }
+  
+  .image-container img {
+  max-width: 100%; /* 이미지가 컨테이너를 벗어나지 않도록 최대 너비 설정 */
+  height: 500px; /* 이미지의 세로 비율 유지 */
+  
+  }
+  
+  .download{
+  padding: 15px 20px; /* 버튼의 내부 여백 설정 */
+  font-size: 16px; /* 버튼 텍스트의 크기 설정 */
+  border-radius: 50px;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: bold;
+  border: none;
+  margin: 0 20px;
+  box-shadow: 0 5px 5px -5px #333;
+  
+  }
+  
+  h1.maintext{
+  color: #f1f1f1; /* 헤더의 글자색 설정 */
+  }
+  
+  .circle{
+  position: absolute;
+  width: 600px;
+  height: 600px;
+  border-radius: 100%;
+  background-color: rgb(106, 241, 196);
+  top: 5%; left:-350px;
+  opacity: 10%;
+  }
+  
+  .circle2{
+  position: absolute;
+  background-color: rgb(106, 241, 196);
+  top:40%; right:-350px;
+  width: 600px;
+  height: 600px;
+  border-radius: 100%;
+  opacity: 10%;
+  }
+  
+  .box{
+  display: flex;
+  width:80%;
+  align-items: center;
+  }
+  
+  
+/* 3번째 페이지 */
+.MainNews .Maintitle h2 {
+  text-align: center;
+  font-size: 50px;
+  margin: -20px 0 100px 0;
+  color: #000;
+  /* 색상을 명시적으로 지정 */
+  display: block;
+  /* 명시적으로 블록 레벨 요소로 설정 */
+  z-index: 10;
+  position: relative;
+  /* z-index를 적용하기 위해서는 position이 필요합니다. */
+}
+
+.section-common {
+  min-height: 500px;
+  /* 섹션의 최소 높이 설정 */
+}
+
+.MainNews {
+  overflow: hidden;
+  width: 100%;
+  height: 90vh;
+}
+
+.MainNews_box {
+  height: 500px; /* 컨테이너의 높이 */
+  margin: 150px 0;
+}
+
+.FigureBox {
+  margin: 50px 50px 0 50px;
+  height: 300px;
+}
+
+figure img {
+  max-width: 200px;
+  height: 200px;
+  border-radius: 5px;
+}
+
+figcaption {
+  margin-top: 5px;
+  font-family: 'Noto Sans KR', sans-serif;
+  width: 200px;
+  text-align: center;
+  white-space: nowrap;
+  /* 줄 바꿈 방지 */
+  overflow: hidden;
+  /* 내용이 넘치면 숨김 처리 */
+  text-overflow: ellipsis;
+  /* 넘치는 내용은 "..."으로 표시 */
+}
+
+.news_slider {
+  margin: 70px auto;
+  height: 400px;
+  transform: scale(1.3);
+}
+
+.news_slider .slick-center {
+  transform: scale(1.3);
+  /* 필요에 따라 줌 레벨을 조절합니다. */
+  transition: transform 0.5s ease-in-out;
+  z-index: 1;
+}
+
+.news_slider .slick-slide {
+  transition: transform 0.5s ease-in-out;
+}
+
+.news_slider .slick-slide:not(.slick-center) {
+  transform: scale(1);
+  filter: brightness(50%);
+}
+/*  */
+.grenner{
+  width: 100%;
+  height: 100vh;
+  background-color: #ffffff;
+  overflow: hidden;
+  
+}
+.grenner_con{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  margin-top: 50px;
+}
+.grenner_title{
+  border: 1px solid #000;
+  width: 70%;
+  height: 100px;
+  border: none;
+  background-color: #c9c9c91f;
+  
+}
+.grenner_title h1{
+  font-size: 50px;
+  line-height: 120px;
+  color: #979797;
+  padding-left: 100px;
+}
+
+.grenner_box{
+  width: 50%; height: 100vh;
+  
+}
+.grenner_box1,.grenner_box2,.grenner_box3{
+  border-radius: 10px;
+  width: 550px; height: 170px;
+  display: flex;
+  margin: 40px auto;
+  transition: transform 0.5s ease-in-out;
+}
+.grenner_box3:hover{
+  transform: scale(1.1);
+}
+.grenner_box1:hover{
+  transform: scale(1.1);
+}
+.grenner_box2:hover{
+  transform: scale(1.1);
+}
+.grenner_box1{
+  border: 1px solid #d73b77;;
+  background-color: #d73b7727;
+}
+.grenner_box2{
+  border: 1px solid #d3b0e0;;
+  background-color: #d3b0e063;
+}
+.grenner_box3{
+  background-color: #b7dff56b;
+  border-right: 1px solid #b7dff5;
+}
+.box_img{
+  border-radius: 100%;
+  background-color: #fff;
+  width: 25%; height: 80%;
+  margin: 15px 0 0 15px;
+  box-shadow: 5px 8px 5px rgba(128, 128, 128, 0.301);
+}
+.box_img img{
+  width: 80%; height: 70%;
+  margin: 22px 0 0 15px;
+}
+.box_text{
+  margin-left: 25px;
+  padding: 25px 8px 0 20px;
+}
+.box_text p{
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+.box_text p:nth-child(2){
+  font-size: 15px;
+  font-weight: inherit;
+}
+.history_con{
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+}
+.history_con img{
+  margin-top: -80px;
+  width: 400px;
+}
+.history_con p{
+  color: #3f3f3f;
+  line-height: 35px;
+  text-align: center;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: 500;
+}
+/* 2번째 페이지 */
+
+.main-content {
+  background-color: #ECF8DE;
+  width: 100%;
+  height: 100vh;
+}
+
+.content-container2 {
+  display: flex;
+  justify-content: center;
+  /* 가로 중앙 정렬 */
+  align-items: center;
+  /* 세로 중앙 정렬 */
+  width: 100%;
+  height: 100%;
+  /* 뷰포트 높이를 100%로 설정하여 화면 전체를 커버하도록 함 */
+}
+
+.left-content {
+  width: 25%;
+  float: left;
+  padding: 20px;
+  margin: 0 0 250px 70px;
+}
+
+.left-content h1 {
+  font-size: 30px;
+}
+
+.right-content {
+
+  width: 75%;
+  /* 오른쪽 컨텐츠 영역의 너비를 조정하세요 */
+  float: right;
+}
+
+
+.ecoaction {
+  width: 100%;
+  /* .right-content 내부의 너비를 100%로 설정하여 내용을 꽉 채우도록 합니다 */
+  height: 530px;
+  box-shadow: 0px 1rem 3rem rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+
+
+.ecoBox {
+  background-color: rgba(255, 255, 255, 0.6);
+  width: 285px;
+  height: 500px;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: center;
+  /* 가로 중앙 정렬 */
+  align-items: center;
+  /* 세로 중앙 정렬 */
+  
+}
+.photoBox {
+  margin: auto;
+  border: 3px;
+  width: 350px;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  /* 가로 중앙 정렬 */
+  align-items: center;
+  /* 세로 중앙 정렬 */
+}
+
+.photoBox img {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  border: 10px solid #acd4fa6b;
+  transition: transform 0.3s ease;
+}
+.photoBox img:hover{
+  transform: scale(1.1);
+}
+.ecoText {
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  width: 330px;
+  height: 60px;
+  overflow: hidden;
+}
+.ecoText p{
+  display: block;
+  text-align: center;
+  margin: auto;
+  height: 50px;
+  font-weight: 500;
+  font-size: 20px;
+  padding-top:10px;
+}
+/* 3번째페이지 슬라이드 버튼 */
+.arrow-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  padding: 10px;
+  border: none;
+  /* 테두리 제거 */
+  background-color: rgba(255, 255, 255, 0.9);
+  cursor: pointer;
+  outline: none;
+  position: relative;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  top: 100px;
+  /* 버튼을 아래로 이동 */
+}
+
+.arrow-button::before {
+  content: '';
+  display: block;
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  padding: 5px;
+  position: absolute;
+  top: 49%;
+  /* 화살표를 아래로 이동 */
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(135deg);
+}
+
+.arrow-button.next::before {
+  transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+.arrow-button.prev::before {
+  transform: translate(-50%, -50%) rotate(135deg);
+}
+
+
+/* NetZero.js 페이지*/
+.NetZero {
+  color: #000;
+  /* 원하는 색상으로 변경하세요. 예: #000은 검정색입니다. */
+  font-size: 24px;
+  /* 폰트 크기 조절 */
+  font-weight: bold;
+  text-align: center;
+  margin-top: 150px;
+  height: 40%;
+}
+
+.netzeroimg {
+  height: 660px;
+  width: auto;
+
+}
+
+.netzeroh2 {
+  font-size: 30px;
+}
+
+
+/* 푸터 */
+
+.footer {
+  background-color: #3e8e41; /* 푸터 배경색 */
+  color: #fff; /* 푸터 텍스트 색상 */
+  text-align: center; /* 푸터 내용 가운데 정렬 */
+  height: 150px;
+  overflow: hidden;
+}
+
+.footer-content {
+  max-width: 1200px; /* 푸터 내용 최대 너비 */
+  height: 80px;
+  margin: 40px auto;
+}
+
+.footer p {
+  margin: 0; /* 문단의 위아래 여백 제거 */
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+.footer-links {
+  list-style-type: none; /* 목록 기호 제거 */
+  padding: 0; /* 목록 내부 여백 제거 */
+}
+
+.footer-links li {
+  display: inline; /* 항목을 가로로 배열 */
+  margin: 0 10px; /* 항목 간격 */
+}
+
+.footer-links li a {
+  color: #fff; /* 링크 텍스트 색상 */
+  text-decoration: none; /* 링크 밑줄 제거 */
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: bold;
+}

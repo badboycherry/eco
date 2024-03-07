@@ -1,0 +1,115 @@
+.netzero_title {
+  width: 100%;
+  height: 500px;
+  background-color: #0059ffa1;
+  margin-bottom: 100px;
+  display: flex;
+  overflow: hidden;
+}
+
+.netzero_title img {
+  width: 400px;
+  margin-top: 100px;
+  margin-left: 300px;
+}
+
+.title_box {
+  margin: 180px 0 0 300px;
+  display: inline-block;
+}
+
+.title_box h1 {
+  display: inline-block;
+  font-size: 4em;
+  color: #ffffff;
+}
+
+.subtitle {
+  margin-top: -30px;
+  font-weight: bold;
+}
+
+.subtitle p:nth-child(2) {
+  font-size: 15px;
+}
+
+.subtitle p {
+  color: #ffffff;
+  line-height: 10px;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+.subtitle span {
+  color: #edff9b;
+  font-size: 20px;
+}
+
+.netzero_con {
+  padding: 0 150px;
+  display: flex;
+}
+
+.netzeroimg {
+  height: 500px;
+  width: auto;
+}
+
+.netzeroh2 {
+  text-align: right;
+  font-size: 15px;
+  font-family: 'Noto Sans KR', sans-serif;
+  margin: 5px 15px 0 0;
+  font-weight: 100;
+}
+
+.netzero_box {
+  width: 740px;
+  height: 535px;
+  margin: auto;
+}
+
+.greengas {
+  color: #000;
+  font-size: 24px;
+  text-align: center;
+  margin-top: 100px;
+  height: 150px;
+  background-color: #0059ff42;
+}
+
+.greengas h1 {
+  line-height: 180px;
+  color: #ffffff;
+}
+
+.greengasimg {
+  display: block;
+  margin: 30px auto 0 auto;
+  /* 온실가스추세 이미지를 가운데 정렬 */
+}
+
+.greengash2 {
+  font-size: 18px;
+  /* 원하는 크기로 조정하세요. */
+  text-align: right;
+  margin-right: 400px;
+  margin-bottom: 10px;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+.greengash3 {
+  margin-top: 100px;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+
+.greengash4 {
+  font-size: 30px;
+  text-align: center;
+  margin: 50px 0;
+}
+
+
+
+

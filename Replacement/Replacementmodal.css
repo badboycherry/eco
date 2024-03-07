@@ -1,0 +1,66 @@
+
+.replacemodal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+    /* 다른 스타일 속성들 */
+  }
+  .replacemodal-content {
+    background-color: #3e8e41;
+    border-radius: 5px;
+    height: 850px;
+    width:850px;
+    position: relative; /* 절대 위치로 배치된 자식 요소를 포함하는 부모 요소가 필요합니다. */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); /* 그림자 효과를 추가합니다. */
+    border-radius: 10px; /* 테두리를 살짝 동그랗게 만듭니다. */
+    text-align: center; /* 가운데 정렬 추가 */
+}
+.replacemodal-content h1{
+    font-size: 40px;
+    margin-top: 40px;
+    color: #ffffff;
+}
+  
+.replacemodalclose {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 30px;
+    cursor: pointer;
+    color: #ffffff;
+}
+.replacemodalproduct-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 한 줄에 2개의 열을 만듭니다. */
+    grid-gap: 10px; /* 그리드 사이의 간격을 설정합니다. */
+    overflow-y: auto; /* 세로 스크롤을 추가합니다. */
+    border: 1px solid azure;
+    width: 800px;
+    height: 650px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); /* 그림자 효과를 추가합니다. */
+    border-radius: 10px; /* 테두리를 살짝 동그랗게 만듭니다. */
+    margin-left: 25px;
+    background-color: azure;
+    padding: 10px; /* 내부 여백을 추가하여 컨텐츠가 테두리에 닿지 않도록 합니다. */
+}
+
+.replacemodalproduct-item img {
+    width: 200px; /* 이미지의 너비를 200px로 설정합니다. */
+    height: 200px; /* 이미지의 높이를 200px로 설정합니다. */
+    margin-top: 50px;
+}
+.replacememtmodalbutton{
+    font-size: 25px;
+    padding: 15px 50px 10px 50px; /* 버튼의 안쪽 여백을 설정합니다. */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); /* 그림자 효과를 추가합니다. */
+    border-radius: 10px; /* 테두리를 살짝 동그랗게 만듭니다. */
+    margin-top: 15px;
+    background-color: azure;
+}
